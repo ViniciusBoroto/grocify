@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="h-screen bg-[url('/images/image.png')] bg-cover bg-center overflow-hidden">
+        <div class="container mx-auto px-8 pt-3 h-screen"> <!-- container -->
+            <nav class="flex items-center justify-between">
+                <img src="images/logo.png" alt="" class="w-40 cursor-pointer">
+                <ul class="flex items-center">
+                    <li class="px-3">
+                        <a href="#" class="text-white text-lg px-2">Home</a>
+                    </li>
+                    <li class="px-3">
+                        <a href="#" class="text-white text-lg px-2">About</a>
+                    </li>
+                    <li class="px-3">
+                        <a href="#" class="text-white text-lg px-2">Features</a>
+                    </li>
+                    <li class="px-3">
+                        <a href="#" class="text-white text-lg px-2">Contact</a>
+                    </li>
+                </ul>
+                <img src="images/cart.png" alt="" class="w-8 cursor-pointer">
+            </nav>
+
+            <div class="flex h-full"> <!-- content container -->
+                <div class="text-white w-xl flex flex-col items-center justify-center h-full">
+                    <!-- Text content(left) container -->
+                    <h1 class="text-6xl font-semibold leading-normal">
+                        Groceries<br>delivery in <span class="font-light">15mins</span>
+                    </h1>
+                    <p>
+                        Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods and
+                        non-perishable items.
+                    </p>
+                    <div class="mt-10">
+                        <a href="#"
+                            class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:border duration-200 border border-transparent">Order
+                            Now</a>
+                        <a href="#">Download App</a>
+                    </div>
+                </div> <!-- / text content container -->
+                <div class="w-full bg-[url('/images/grocery-image.png')] bg-contain bg-bottom object-cover bg-no-repeat h-full "
+                    id="photo">
+                    <!-- Person photo container -->
+
+                </div>
+            </div> <!-- / content container -->
+        </div> <!-- Container -->
+    </div>
+
+
+</body>
+
+</html>
